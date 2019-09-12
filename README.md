@@ -253,13 +253,10 @@ This is a command used to get the latest code from the remote branch. This could
  	create mode 100644 README.md
 	
 **Note** 
-	* Remember that change in local master need to pull the chanes from remote master repository before publishing anything. 
-	* Any working branches from a local directory needs to have adjust itself from the local master to have the same status.
+ Remember that change in local master need to pull the chanes from remote master repository before publishing anything. 
+ Any working branches from a local directory needs to have adjust itself from the local master to have the same status.
 
 	
 # git diff origin/master
-	This is a command used to compare the local master with the remote master branch. The changes are colored as red and green light to let us what has been removed and added locally comapre to the remote master. Running the comand will result the following outcome
+	This is a command used to compare the local master with the remote master branch. The changes are colored as red and green light to let us what has been removed and added locally comapre to the remote master.
 
-!()[https://recordit.co/38sctEQTYX]
-     
-  
