@@ -11,8 +11,14 @@ This is a resource mainly targeting to provide over all and general aspects of t
 
 
 # Installtion of git
-git can be downlaoded from the efollowing link  as per the kind of operating system you have
-https://git-scm.com/downloads
+git can be downlaoded from the following link  as per the kind of operating system you have
+
+	* https://git-scm.com/downloads
+	* Follow up the prompt
+
+# Checking the version of git
+git --version
+it will show you the installed version of the git. Example : - git version 2.22.0
 
 # Configuration of git
 This is a step to perform a configuration of git. The configuration is actually made providing the following information
@@ -23,9 +29,6 @@ This is a step to perform a configuration of git. The configuration is actually 
 The following link will provide the latest developmen verison for the git itself. Run the following command on the terminal
 git clone https://github.com/git/git. It willautomatically update the git.
 
-# Checking the version of git
-git --version
-it will show you the installed version of the git. Example : - git version 2.22.0
 
 # Begin using the git
 In order to begin using the git, the first thing that we shoudl do is  creating a folder using the command mkdir <folderName>
