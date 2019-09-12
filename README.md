@@ -260,20 +260,6 @@ This is a command used to get the latest code from the remote branch. This could
 # git diff origin/master
 	This is a command used to compare the local master with the remote master branch. The changes are colored as red and green light to let us what has been removed and added locally comapre to the remote master. Running the comand will result the following outcome
 
-diff --git a/index.html b/index.html
-index 97bd27e..278d59b 100644
---- a/index.html
-+++ b/index.html
-@@ -22,9 +22,9 @@
-         <h4>List of tools</h4>
-         <ol>
-             <li>BARBELLS</li>
--            <li>HAMMER STRENGTH MACHINE.</li>
-             <li>DUMBBELL</li>
-             <li>BENCH PRESS</li>
-+            <li>CABLES AND PULLEYS</li>
-         </ol>
- 
-     </div>
+!()[https://recordit.co/38sctEQTYX]
      
   
