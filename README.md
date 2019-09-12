@@ -61,9 +61,9 @@ It is a command which will make the file to add to the respository. The applicai
 		new file:   index.html
 
 
-# git rm --cached <fileName>"
+# git rm --cached "<fileName>"
 This is a command which is useful to unstage the change alreay added to the fiel from the latest git add. this will make the content to be one verion less from the last added feature.
-	rm 'index.html'
+	git rm --cached 'index.html'
 	looking back again the git status , it will show the following result  
 	On branch master
 
@@ -171,7 +171,8 @@ The same command is used to add as well as commit the change at local branch of 
 This is also the same command of checking out to any branch. The applicaiton of the command is as follow
 	**command
 	git checkout master
-#Looking the difference Master Verse Local branch
+	
+# Looking the difference Master Verse Local branch
 This is a command used to check the difference between the branch committed verse the master branch
 	**command
 	git diff master branchName
