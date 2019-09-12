@@ -259,5 +259,6 @@ This is a command used to get the latest code from the remote branch. This could
 
 	
 # git diff origin/master
-	This is a command used to compare the local master with the remote master branch. The changes are colored as red and green light to let us what has been removed and added locally comapre to the remote master.
+	This is a command used to compare the local master with the remote master branch. 
+	The changes are colored as red and green light to let us what has been removed and added locally comapre to the remote master.
 
