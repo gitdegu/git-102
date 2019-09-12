@@ -231,8 +231,7 @@ This is a sommand used to remove a remote repository.  The command is going to e
 	**git remote rm origin 
 	
 # Pushing to a remote repository - git push -u origin master
-This is a command used to push a local master committed change to a remote master. the following are the outcome obtained after running the 
-	git push -u origin master
+This is a command used to push a local master committed change to a remote master. the following are the outcome obtained after running the **git push -u origin master**
 	
 		Enumerating objects: 43, done.
 		Counting objects: 100% (43/43), done.
@@ -245,4 +244,37 @@ This is a command used to push a local master committed change to a remote maste
 		 * [new branch]      master -> master
 		Branch 'master' set up to track remote branch 'master' from 'origin'.
 
+# git pull
+This is a command used to get the latest code from the remote branch. This could give a chance locally ro  resolve any changes or conflict . The **git pull** has the following results
 
+	Merge made by the 'recursive' strategy.
+ 	README.md | 248 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 	1 file changed, 248 insertions(+)
+ 	create mode 100644 README.md
+	
+**Note** 
+	* Remember that change in local master need to pull the chanes from remote master repository before publishing anything. 
+	* Any working branches from a local directory needs to have adjust itself from the local master to have the same status.
+
+	
+# git diff origin/master
+	This is a command used to compare the local master with the remote master branch. The changes are colored as red and green light to let us what has been removed and added locally comapre to the remote master. Running the comand will result the following outcome
+
+	diff --git a/index.html b/index.html
+	index 97bd27e..278d59b 100644
+	--- a/index.html
+	+++ b/index.html
+	@@ -22,9 +22,9 @@
+         <h4>List of tools</h4>
+         <ol>
+             <li>BARBELLS</li>
+	-    <li>HAMMER STRENGTH MACHINE.</li>
+             <li>DUMBBELL</li>
+             <li>BENCH PRESS</li>
+	+    <li>CABLES AND PULLEYS</li>
+         </ol>
+ 
+     </div>
+
+     
+  
